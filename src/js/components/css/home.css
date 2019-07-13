@@ -1,0 +1,51 @@
+.users-container{
+    /* background: red; */
+    padding: 5px;
+}
+
+.users-wrapper{
+    border: 1px solid #948e8e;
+    /* background:yellow; */
+    cursor: pointer;
+}
+.users-wrapper:hover{
+    background: #ccc;
+    box-shadow: 0px 2px 20px 0px #ccc;
+
+}
+.all-post-list{
+    border: 1px solid #ccc;
+    cursor: pointer;
+    
+}
+.all-post-list:hover{
+    border: 1px solid #83aeff;    
+    box-shadow: 0px 2px 20px 0px #ccc;
+    /* background: #c7c9ce */
+}
+.delete-button{
+    background: #ff5b5b;
+    padding: 10px 25px;
+    border: 2px solid #ff5b5b;
+    cursor: pointer;
+}
+.post-heading{
+    color: #575757
+}
+.post-body{
+    color: #696969
+
+}
+.hide-show-comment{
+    text-align: right;
+    cursor: pointer;
+    color: #83aeff;
+    margin: 20px 0px;
+}
+.commnet-wrapper{
+    border: 1px solid #ccc;
+}
+.comment-name{
+    font-size: 12px;
+    color: #83aeff
+}
